@@ -1,0 +1,378 @@
+Autonomy vs. Paternalism
+	Levels:
+		Libertarian
+		Autonomist
+		Centrist
+		Paternalist-Leaning
+		Paternalism
+	Questions:
+		If there was a man who was about to cross an unstable bridge, and he would die if he crossed it, would you stop him from crossing it?
+			Yes +10
+			Only until I was sure he knew it would kill him ±0
+			No -10
+		Should car manufacturers be forced to put seatbelts in their cars?
+			Hard Yes +10
+			Yes +5
+			No -5
+			Hard No -10
+		Should vaccines be mandatory?
+			Hard Yes +20
+			Yes +10
+			No -5
+			Hard No -10
+		What do you think about the War on Drugs?
+			It was fully good +10
+			It was a good idea, but it failed +5
+			It was a bad idea -5
+		Is freedom inherently good?
+			Hard Yes -10
+			Yes -5
+			No +5
+			Hard No +10
+		Should suicide be legal?
+			Hard Yes -10
+			Yes -5
+			No +5
+			Hard No +10
+		Should all drugs be legalized?
+			Hard Yes -20
+			Yes -10
+			No +0
+			Hard No +5
+		Are there "victimless crimes" that should be legal?
+			Yes -5
+			No +5
+		Should homeless people be forcefully housed?
+			Hard Yes +10
+			Yes +5
+			No -5
+			Hard No -10
+		Is one aspect of why guns are bad is that they lead to increased suicide?
+			Hard Yes +10
+			Yes +5
+			Yes, but guns are still mostly good ±0
+			No -5
+			Hard No -10
+Economic Statism vs. Economic Libertarianism
+	Levels:
+		Planned Economy
+		Regulationist
+		Centrist
+		Free-Market
+		Laissez Faire
+	Questions:
+		Are there too many regulations on businesses?
+			Hard Yes -10
+			Yes -5
+			No +5
+			Hard No +10
+		Should Silicon Valley be more heavily regulated?
+			Hard Yes +10
+			Yes +5
+			No -5
+			Hard No -10
+		Is a "free market" a goal worth striving for?
+			Hard Yes -10
+			Yes -5
+			No +5
+			Hard No +10
+		Is free trade good, in almost all circumstances?
+			It is always good -15
+			Yes -10
+			No +5
+			It is never good +15
+		Which should be beholden to the other?
+			Businesses +10
+			The State -10
+			Business and the State should cooperate ±0
+		True or False: corporations should never act against the country.
+			Hard True +10
+			True +5
+			False -5
+			Hard False -10
+		Are there some commodities that shouldn't be sold?
+			Hard Yes +10
+			Yes +5
+			No -5
+			Hard No -10
+		Are many issues in your nation caused by overregulation?
+			Yes -5
+			Not many, but still some ±0
+			No +5
+		Is the EU bad because of bureaucracy?
+			Hard Yes -10
+			Yes -5
+			The EU is good, but it's still too bureaucratic ±0
+			No +10
+		Should the government stop businesses from hurting the environment?
+			Yes +10
+			Usually +5
+			Not Usually -5
+			No -10
+Partisan vs. Non-Partisan
+	Levels:
+		Partisan
+		Partisan-Leaning
+		Mixture
+		Non-Partisan Leaning
+		Non-Partisan
+	Questions:
+		Would you prefer if your country had no political parties?
+			Hard Yes +10
+			Yes +5
+			No -5
+			Hard No -10
+		Would you prefer a party list proportional representation system?
+			Yes -10
+			I would prefer it over my current system, but, ultimately, I would prefer non-partisan first-past-the-post +10
+			No +10
+		Would you vote for a party besides the last party you voted for?
+			Hard Yes +10
+			Yes +5
+			No -5
+			Hard No -10
+		What do you think about the two-party system in America?
+			It is a good system that ensures stability -10
+			It should have no parties +10
+			It should have three parties -5 
+			It should be a one-party/dominant-party system -5
+			It should have many parties trying to form coalitions -10
+		Would you vote for a politician you agree with from a party with a platform you strongly disagree with?
+			Hard Yes +10
+			Yes +5
+			No -5
+			Hard No -10
+		Would you rather vote for a political "insider" or a political "outsider"?
+			Insider -5
+			Outsider +5
+		Is the idea of a political party inherently flawed, because it comes with a certain set of ideas/policies you must agree with?
+			Hard Yes +10
+			Yes +5
+			No -5
+			Hard No -10
+		Is the concept of "syncretic politics" good?
+			Hard Yes +10
+			Yes +5
+			No -5
+			Hard No -10
+		Would you consider yourself to be a non-partisan?
+			Hard Yes +15
+			Yes +5
+			No -5
+			Hard No -15
+		Is partisanship one of the three biggest problems in modern politics?
+			Yes +10
+			No -10
+Authoritarianism vs. Democracy
+	Levels:
+		Autocracy
+		Authoritarian Democracy
+		Mixed Regime
+		Constitutional Democracy
+		Full Democracy
+	Questions:
+		Has democracy failed?
+			Hard Yes +10
+			Yes +5
+			No -5
+			Hard No -10
+		True or false: "[Representative] Democracy is the worst system of government, except for all the others we've tried."
+			True -5
+			False +5
+			False because democracy is good -5
+		Is Direct Democracy a good system?
+			Hard Yes -10
+			Yes -5
+			Sometimes ±0
+			No +5
+			Hard No +10
+		Can democracy oppress the rights of the minority?
+			Hard Yes +10
+			Yes ±0
+			No -5
+			Hard No -10
+		Should democracy be implemented in all governments/states?
+			Hard Yes -10
+			Yes -5
+			No +5
+			Hard No +10
+		Which is worse: an oppressive democracy or a benevolent dictatorship?
+			Oppressive Democracy +10
+			Benevolent Dictatorship -10
+		Which is more important: security or democracy?
+			Democracy -10
+			Security +10
+		Should everyone in your country be able to vote for representatives?
+			Hard Yes -10
+			Yes -5
+			No +5
+			Hard No +10
+		Is a decision better when the input of more people is taken into account?
+			Hard Yes -10
+			Yes -5
+			No +5
+			Hard No +10
+		Which label defines you more?
+			Authoritarian +15
+			Anti-Authoritarian -15
+
+
+Ideologies:
+	Pure Technocracy
+		Paternalist
+		[variable]
+		Autocratic
+	Pinochetism
+		Paternalist
+		Laissez Faire
+		Autocratic
+	Sanation
+		Paternalist
+		Regulationist
+		Authoritarian Democracy to Autocratic
+	Gaullism
+		Paternalist
+		Regulationist
+		Constitutional Democratic
+	Nazism
+		Paternalist
+		Regulationist
+		Autocratic
+	Marxism-Leninism
+		Paternalist
+		Planned
+		Autocratic
+	Liberalism
+		Autonomist
+		Regulationist to Free Market
+		Constitutional Democratic
+	Classical Liberalism
+		Libertarian
+		Free Market
+		Constitutional Democratic
+	American Conservatism
+		Paternalist-Leaning
+		Free Market
+		Constitutional Democratic to Mixed Regime
+	Social Democracy
+		Autonomist
+		Regulationist
+		Constitutional Democratic
+	Democratic Socialism
+		[variable]
+		Regulationist to Planned
+		Pure Democratic to Mixed Regime
+	Paternalistic Conservatism
+		Paternalist
+		Regulationist
+		Consitutional Democratic
+	High Toryism
+		Paternalist
+		Regulationist
+		Mixed Regime
+	Absolutism
+		Paternalist
+		Centrist
+		Autocratic
+	Christian Democracy
+		Paternalist
+		Regulationist
+		Constitutional Democratic
+	Fusionism
+		Centrist
+		Laissez Faire
+		Constitutional Democratic
+	Minarchism
+		Libertarian
+		Laissez Faire
+		Pure Democratic
+	Democratic Confederalism
+		Libertarian
+		Regulationist
+		Pure Democratic
+	Left Communism
+		Paternalist
+		Planned
+		Autocratic
+	State Capitalism
+		Paternalist
+		Regulationist to Planned
+		Mixed Regime to Autocratic
+	Dengism
+		Paternalist
+		Regulationist
+		Autocratic
+	Distributism
+		Paternalist
+		Regulationist
+		Constiutional Democratic
+	Social Gospel
+		Paternalist
+		Regulationist
+		Constitutional Democratic
+	Titoism
+		Paternalist
+		Regulationist
+		Autocratic
+	Futurist Democracy
+		Paternalist
+		Regulationist
+		Authoritarian Democratic
+	Reaganism
+		Paternalist-leaning
+		Laissez Faire
+		Constitutional Democratic
+	Gandhism
+		Autonomist
+		Regulationist
+		Constituional Democratic
+	Longism
+		Paternalist
+		Regulationist
+		Authoritarian Democratic
+	Bismarckism
+		Paternalist
+		Regulationist
+		Authoritarian Democratic
+	Jacobinism
+		Paternalist-Leaning
+		Regulationist
+		Authoritarian Democratic
+	Paleoconservatism
+		Paternalist
+		Centrist
+		Mixed Regime
+	Tridemism
+		Paternalist-leaning
+		Regulationist
+		Constitutional Democracy
+	Kemalism
+		Paternalist
+		Regulationist
+		Constituional Democracy to Authoritarian Democracy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
