@@ -8,7 +8,7 @@ questions = [
     "text5": "Absolutely No"
     "weight": [1,0,0,0,-1]
   "effect":
-    "ptnl": 10
+    "ptnl": -10
     "stat": 0
     "part": 0
     "auth": 0
@@ -22,7 +22,7 @@ questions = [
     "text5": "Hard No"
     "weight": [1,0.5,0,-0.25,-0.5]
   "effect":
-    "ptnl": 20
+    "ptnl": -20
     "stat": 0
     "part": 0
     "auth": 0
@@ -36,7 +36,7 @@ questions = [
     "text5": "Hard No"
     "weight": [1,0.5,0,-0.25,-0.5]
   "effect":
-    "ptnl": 20
+    "ptnl": -20
     "stat": 0
     "part": 0
     "auth": 0
@@ -50,7 +50,7 @@ questions = [
     "text5": "It was a bad idea"
     "weight": [1,0.5,0,0,-0.5]
   "effect":
-    "ptnl": 10
+    "ptnl": -10
     "stat": 0
     "part": 0
     "auth": 0
