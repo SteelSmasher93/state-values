@@ -124,5 +124,22 @@ questions = [
     "stat": 0
     "auth": 0
     "part": 0
+<<<<<<< HEAD
 
+=======
+,
+  "question": "Should Silicon Valley be more heavily regulated?"
+  "answers":
+    "text1": "Hard Yes"
+    "text2": "Yes"
+    "text3": false
+    "text4": "No"
+    "text5": "Hard No"
+    "weight": [-1,-0.5,0,0.5,1]
+  "effect":
+    "ptnl": 0
+    "stat": 10
+    "auth": 0
+    "part": 0
+>>>>>>> parent of 3a67e07 (Redid)
 ]
