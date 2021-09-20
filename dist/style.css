@@ -104,12 +104,12 @@ label {
   background-color: #00ff88;
 }
 
-#shortq-button {
-  background-color: #00d9ff;
-}
-
 #quiz-button {
   background-color: #0059ff;
+}
+
+#nevermind-button {
+  background-color: #ff0000;
 }
 
 #button1 {
