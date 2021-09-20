@@ -10,8 +10,8 @@ questions = [
   "effect":
     "ptnl": -10
     "stat": 0
-    "part": 0
     "auth": 0
+    "part": 0
 ,
   "question": "Should car manufacturers be forced to put seatbelts in their cars?"
   "answers":
@@ -24,8 +24,8 @@ questions = [
   "effect":
     "ptnl": -20
     "stat": 0
-    "part": 0
     "auth": 0
+    "part": 0
 ,
   "question": "Should vaccines be mandatory?"
   "answers":
@@ -38,8 +38,8 @@ questions = [
   "effect":
     "ptnl": -20
     "stat": 0
-    "part": 0
     "auth": 0
+    "part": 0
 ,
   "question": "The War on Drugs is a good thing."
   "answers":
@@ -52,6 +52,6 @@ questions = [
   "effect":
     "ptnl": -10
     "stat": 0
-    "part": 0
     "auth": 0
+    "part": 0
 ]

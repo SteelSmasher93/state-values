@@ -19,8 +19,8 @@ questions = [
     "effect": {
       "ptnl": -10,
       "stat": 0,
-      "part": 0,
-      "auth": 0
+      "auth": 0,
+      "part": 0
     }
   },
   {
@@ -40,8 +40,8 @@ questions = [
     "effect": {
       "ptnl": -20,
       "stat": 0,
-      "part": 0,
-      "auth": 0
+      "auth": 0,
+      "part": 0
     }
   },
   {
@@ -61,8 +61,8 @@ questions = [
     "effect": {
       "ptnl": -20,
       "stat": 0,
-      "part": 0,
-      "auth": 0
+      "auth": 0,
+      "part": 0
     }
   },
   {
@@ -82,8 +82,8 @@ questions = [
     "effect": {
       "ptnl": -10,
       "stat": 0,
-      "part": 0,
-      "auth": 0
+      "auth": 0,
+      "part": 0
     }
   }
 ];
