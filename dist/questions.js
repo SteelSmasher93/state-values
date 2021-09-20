@@ -17,7 +17,7 @@ questions = [
   -1]
     },
     "effect": {
-      "ptnl": -10,
+      "ptnl": 10,
       "stat": 0,
       "auth": 0,
       "part": 0
@@ -38,7 +38,7 @@ questions = [
   -0.5]
     },
     "effect": {
-      "ptnl": -20,
+      "ptnl": 20,
       "stat": 0,
       "auth": 0,
       "part": 0
@@ -59,7 +59,7 @@ questions = [
   -0.5]
     },
     "effect": {
-      "ptnl": -20,
+      "ptnl": 20,
       "stat": 0,
       "auth": 0,
       "part": 0
@@ -80,7 +80,7 @@ questions = [
   -0.5]
     },
     "effect": {
-      "ptnl": -10,
+      "ptnl": 10,
       "stat": 0,
       "auth": 0,
       "part": 0

@@ -119,36 +119,36 @@ p.extras {
   margin-right: auto;
 }
 
-#libertarian {
-  color: #B22222;
+#paternalist {
+  color: #7C10A6;
 }
 
-#paternalist {
-  color: #00F;
+#libertarian {
+  color: #D69017;
 }
 
 #planned {
-  color: #EDB509;
+  color: #FF0000;
 }
 
 #laissez {
-  color: #333;
+  color: #1C00FF;
 }
 
 #autocracy {
-  color: #C000FF;
+  color: #3D1504;
 }
 
 #democracy {
-  color: #EE2436;
+  color: #E9FA31;
 }
 
 #partisan {
-  color: #00F;
+  color: #1E1E1E;
 }
 
 #nonpartisan {
-  color: #FF0000;
+  color: #C9C9C9;
 }
 
 @media (prefers-color-scheme: dark) {

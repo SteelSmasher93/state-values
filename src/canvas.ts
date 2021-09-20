@@ -15,10 +15,10 @@ if(val >=  0) {return ary[4]} else
 }
 //Setting value svg sources
 //Paternalism axis
-var img_libertarian = new Image()
-img_libertarian.src = "assets/values/libertarian.svg"
 var img_paternalist = new Image()
 img_paternalist.src = "assets/values/paternalist.svg"
+var img_libertarian = new Image()
+img_libertarian.src = "assets/values/libertarian.svg"
 //Economics axis
 var img_planned     = new Image()
 img_planned.src     = "assets/values/planned.svg"
@@ -44,11 +44,11 @@ let auth: number = parseFloat(auth_input)
 let part: number = parseFloat(part_input)
 
 //toFixed(1) of all values (converts to string with 1 decimal)
-let libertarian: string = ptnl.toFixed(1)
+let paternalist: string = ptnl.toFixed(1)
 let planned:     string = stat.toFixed(1)
 let autocracy:   string = auth.toFixed(1)
 let partisan:    string = part.toFixed(1)
-let paternalist: string = (100 - ptnl).toFixed(1)
+let libertarian: string = (100 - ptnl).toFixed(1)
 let laissez:     string = (100 - stat).toFixed(1)
 let democracy:   string = (100 - auth).toFixed(1)
 let nonpartisan: string = (100 - part).toFixed(1)
@@ -65,8 +65,8 @@ if(dark == true){
 }
 //Drawing value images
 ctx.fillRect(0, 0, 800, 650);
-ctx.drawImage(img_libertarian, 20, 170, 100, 100)
-ctx.drawImage(img_paternalist, 680, 170, 100, 100)
+ctx.drawImage(img_paternalist, 20, 170, 100, 100)
+ctx.drawImage(img_libertarian, 680, 170, 100, 100)
 ctx.drawImage(img_planned, 20, 290, 100, 100)
 ctx.drawImage(img_laissez, 680, 290, 100, 100)
 ctx.drawImage(img_autocracy, 20, 410, 100, 100)
@@ -87,50 +87,50 @@ ctx.lineJoin = "round"
 ctx.lineWidth = 65;
 //Paternalism axis
 if(ptnl >= 50){
-    ctx.strokeStyle = "#00F"
+    ctx.strokeStyle = "#D69017"
     ctx.strokeRect(636 - 4.72 * (100 - ptnl), 220, 4.72 * (100 - ptnl) - 2, 0)
-    ctx.strokeStyle = "#B22222"
+    ctx.strokeStyle = "#7C10A6"
     ctx.strokeRect(166, 220, 4.72 * ptnl - 2, 0)
 } else {
-    ctx.strokeStyle = "#B22222"
+    ctx.strokeStyle = "#7C10A6"
     ctx.strokeRect(166, 220, 4.72 * ptnl - 2, 0)
-    ctx.strokeStyle = "#00F"
+    ctx.strokeStyle = "#D69017"
     ctx.strokeRect(636 - 4.72 * (100 - ptnl), 220, 4.72 * (100 - ptnl) - 2, 0)
 }
 //Economic axis
 if(stat >= 50){
-    ctx.strokeStyle = "#333"
+    ctx.strokeStyle = "#1C00FF"
     ctx.strokeRect(636 - 4.72 * (100 - stat), 340, 4.72 * (100 - stat) - 2, 0)
-    ctx.strokeStyle = "#EDB509"
+    ctx.strokeStyle = "#FF0000"
     ctx.strokeRect(166, 340, 4.72 * stat - 2, 0)
 } else {
-    ctx.strokeStyle = "#EDB509"
+    ctx.strokeStyle = "#FF0000"
     ctx.strokeRect(166, 340, 4.72 * stat - 2, 0)
-    ctx.strokeStyle = "#333"
+    ctx.strokeStyle = "#1C00FF"
     ctx.strokeRect(636 - 4.72 * (100 - stat), 340, 4.72 * (100 - stat) - 2, 0)
 }
 //Authority axis
 if(auth >= 50){
-    ctx.strokeStyle = "#FF0000"
+    ctx.strokeStyle = "#E9FA31"
     ctx.strokeRect(636 - 4.72 * (100 - auth), 460, 4.72 * (100 - auth) - 2, 0) 
-    ctx.strokeStyle = "#00F"
+    ctx.strokeStyle = "#3D1504"
     ctx.strokeRect(166, 460, 4.72 * auth - 2, 0)
 } else {
-    ctx.strokeStyle = "#00F"
+    ctx.strokeStyle = "#3D1504"
     ctx.strokeRect(166, 460, 4.72 * auth - 2, 0)
-    ctx.strokeStyle = "#FF0000"
+    ctx.strokeStyle = "#E9FA31"
     ctx.strokeRect(636 - 4.72 * (100 - auth), 460, 4.72 * (100 - auth) - 2, 0)
 }
 //Partisanship axis
 if(part >= 50){
-    ctx.strokeStyle = "#EE2436"
+    ctx.strokeStyle = "#C9C9C9"
     ctx.strokeRect(636 - 4.72 * (100 - part), 580, 4.72 * (100 - part) - 2, 0)
-    ctx.strokeStyle = "#C000FF"
+    ctx.strokeStyle = "#1E1E1E"
     ctx.strokeRect(166, 580, 4.72 * part - 2, 0)
 } else {
-    ctx.strokeStyle = "#C000FF"
+    ctx.strokeStyle = "#1E1E1E"
     ctx.strokeRect(166, 580, 4.72 * part - 2, 0)
-    ctx.strokeStyle = "#EE2436"
+    ctx.strokeStyle = "#C9C9C9"
     ctx.strokeRect(636 - 4.72 * (100 - part), 580, 4.72 * (100 - part) - 2, 0)
 }
 //Top info
@@ -148,13 +148,13 @@ ctx.fillText("Closest Match: " + ideology, 20, 130)
 ctx.font = "50px Source Sans Pro"
 ctx.textAlign = "left"
 ctx.fillStyle = "#000"
-if (ptnl > 30) {ctx.fillText(libertarian + "%", 150, 237.5)}
+if (ptnl > 30) {ctx.fillText(paternalist + "%", 150, 237.5)}
 if (stat > 30) {ctx.fillText(planned     + "%", 150, 357.5)}
 if (auth > 30) {ctx.fillText(autocracy   + "%", 150, 477.5)}
 if (part > 30) {ctx.fillText(partisan    + "%", 150, 597.5)} 
 //Right column percentages
 ctx.textAlign="right"
-if (ptnl < 70) {ctx.fillText(paternalist + "%", 650, 237.5)}
+if (ptnl < 70) {ctx.fillText(libertarian + "%", 650, 237.5)}
 if (stat < 70) {ctx.fillText(laissez     + "%", 650, 357.5)}
 if (auth < 70) {ctx.fillText(democracy   + "%", 650, 477.5)}
 if (part < 70) {ctx.fillText(nonpartisan + "%", 650, 597.5)}

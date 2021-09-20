@@ -51,7 +51,7 @@ setLabel = function(val, ary) {
 };
 
 //Defines value of each value
-libertarian = getQueryVariable("a");
+paternalist = getQueryVariable("a");
 
 planned = getQueryVariable("b");
 
@@ -59,7 +59,7 @@ autocracy = getQueryVariable("c");
 
 partisan = getQueryVariable("d");
 
-paternalist = (100 - libertarian).toFixed(1);
+libertarian = (100 - paternalist).toFixed(1);
 
 laissez = (100 - planned).toFixed(1);
 
@@ -69,7 +69,7 @@ nonpartisan = (100 - partisan).toFixed(1);
 
 //Sets bar values for all bars
 //Left collumn
-setBarValue("libertarian", libertarian);
+setBarValue("paternalist", paternalist);
 
 setBarValue("planned", planned);
 
@@ -78,7 +78,7 @@ setBarValue("autocracy", autocracy);
 setBarValue("partisan", partisan);
 
 //Right collumn
-setBarValue("paternalist", paternalist);
+setBarValue("libertarian", libertarian);
 
 setBarValue("laissez", laissez);
 
@@ -87,7 +87,7 @@ setBarValue("democracy", democracy);
 setBarValue("nonpartisan", nonpartisan);
 
 //Sets label for all axis divs
-document.getElementById("ptnl-label").innerHTML = setLabel(libertarian, ptnl_array);
+document.getElementById("ptnl-label").innerHTML = setLabel(paternalist, ptnl_array);
 
 document.getElementById("stat-label").innerHTML = setLabel(planned, stat_array);
 
@@ -103,7 +103,7 @@ userdist = 2e308;
 for (j = 0, len = ideologies.length; j < len; j++) {
   ideology = ideologies[j];
   dist = 0;
-  dist += Math.pow(Math.abs(ideology.stats.ptnl - libertarian), 2);
+  dist += Math.pow(Math.abs(ideology.stats.ptnl - paternalist), 2);
   dist += Math.pow(Math.abs(ideology.stats.stat - planned), 2);
   dist += Math.pow(Math.abs(ideology.stats.auth - autocracy), 2);
   dist += Math.pow(Math.abs(ideology.stats.part - partisan), 2);
@@ -123,5 +123,5 @@ window.onload = function() {
   } else {
     darkmode = false;
   }
-  return makeUserCanvas(libertarian, planned, partisan, autocracy, darkmode, match);
+  return makeUserCanvas(paternalist, planned, partisan, autocracy, darkmode, match);
 };

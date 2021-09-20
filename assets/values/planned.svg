@@ -192,7 +192,7 @@
        inkscape:label="Bottom-rectangle" />
     <path
        id="rect18865"
-       style="display:inline;fill:#ffffff;stroke-width:0.450003;stroke-linejoin:round;stroke-opacity:0.909449"
+       style="display:inline;fill:#FF0000;stroke-width:0.450003;stroke-linejoin:round;stroke-opacity:0.909449"
        d="m -234.06184,94.055153 h 21.43138 c 7.25572,0 13.09696,5.841242 13.09696,13.096957 v 21.43139 h -47.6253 v -21.43139 c 0,-7.255715 5.84125,-13.096957 13.09696,-13.096957 z"
        sodipodi:nodetypes="sssccss"
        inkscape:label="Inner-rectangle" />
