@@ -214,8 +214,6 @@ questions = [
   },
   {
     "question": "Is a 'free market' a goal worth striving for?"
-  },
-  {
     "answers": {
       "text1": "Hard Yes",
       "text2": "Yes",
