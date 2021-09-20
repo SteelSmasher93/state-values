@@ -138,6 +138,7 @@ questions = [
     "stat": 10
     "auth": 0
     "part": 0
+,
 "question": "Is a 'free market' a goal worth striving for?"
   "answers":
     "text1": "Hard Yes"
@@ -151,6 +152,7 @@ questions = [
     "stat": 10
     "auth": 0
     "part": 0
+,
 "question": "Are there too many regulations on businesses?"
   "answers":
     "text1": "It is always good"
@@ -164,6 +166,7 @@ questions = [
     "stat": 20
     "auth": 0
     "part": 0
+,
 "question": "Which should be beholden to the other (if they're all bad, pick the least bad option)?"
   "answers":
     "text1": "Businesses"
@@ -177,6 +180,7 @@ questions = [
     "stat": 10
     "auth": 0
     "part": 0
+,
 "question": "True or False: corporations should never act against the country."
   "answers":
     "text1": "Hard True"
@@ -190,6 +194,7 @@ questions = [
     "stat": 10
     "auth": 0
     "part": 0
+,
 "question": "Are there some commodities that shouldn't be sold?"
   "answers":
     "text1": "Hard Yes"
@@ -203,6 +208,7 @@ questions = [
     "stat": 10
     "auth": 0
     "part": 0
+,
 "question": "Are many issues in your nation caused by overregulation?"
   "answers":
     "text1": false
@@ -216,6 +222,7 @@ questions = [
     "stat": 5
     "auth": 0
     "part": 0
+,
 "question": "Is the EU bad because of bureaucracy?"
   "answers":
     "text1": "Hard Yes"
@@ -229,6 +236,7 @@ questions = [
     "stat": 10
     "auth": 0
     "part": 0
+,
 "question": "Should the government stop business from hurting the environment?"
   "answers":
     "text1": "Yes"
