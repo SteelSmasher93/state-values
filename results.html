@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link href='dist/style.css' rel='stylesheet' type='text/css'>
+        <link href='dist/results.css' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="x-icon" href="assets/icon.png">
+        <link rel="shortcut icon" type="x-icon" href="assets/icon.png">
+        <title>State Values</title>
+        <meta property="og:ttl" content="600">
+        <meta property="og:site_name" content="steelsmasher93.github,io/state-values">
+        <meta property="og:title" content="State Valyes">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Statevalues is a political quiz about the role of the state.">
+        <meta property="og:url" content="https://steelsmasher93.github.io/state-values">
+        <meta property="og:image" content="https://steelsmasher93.github.io/state-values/assets/previcon.png">
+        <meta property="og:image:width" content="1024">
+        <meta property="og:image:height" content="1024">
+        <meta name="theme-color" content="#000000" data-react-helmet="true">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>State Values</h1>
+        <h2>Results</h2>
+        <div class="results">
+            <!--Paternalism axis-->
+            <h2>Paternalism Axis: <span class="weight-300" id="ptnl-label"></span></h2>
+            <div class="axis">
+                <img class="value" id="img-libertarian" src="assets/values/libertarian.svg" height="128pt"/>
+                <div class="bar libertarian" id="bar-libertarian">
+                    <div class="text-wrapper" id="libertarian"></div>
+                </div>
+                <div class="bar paternalist" id="bar-paternalist">
+                    <div class="text-wrapper" id="paternalist"></div>
+                </div>
+                <img class="value" id="img-paternalist" src="assets/values/paternalist.svg" height="128pt"/>
+            </div>
+            <!--Economic axis-->
+            <h2>Economic Axis: <span class="weight-300" id="stat-label"></span></h2>
+            <div class="axis">
+                <img class="value" id="img-planned" src="assets/values/planned.svg" height="128pt"/>
+                <div class="bar planned" id="bar-planned">
+                    <div class="text-wrapper" id="planned"></div>
+                </div>
+                <div class="bar laissez" id="bar-laissez">
+                    <div class="text-wrapper" id="laissez"></div>
+                </div>
+                <img class="value" id="img-laissez" src="assets/values/laissez.svg" height="128pt"/>
+            </div>
+            <!--Partisanship axis-->
+            <h2>Partisanship Axis: <span class="weight-300" id="part-label"></span></h2>
+            <div class="axis">
+                <img class="value" id="img-partisan" src="assets/values/partisan.svg" height="128pt"/>
+                <div class="bar partisan" id="bar-partisan">
+                    <div class="text-wrapper" id="partisan"></div>
+                </div>
+                <div class="bar nonpartisan" id="bar-nonpartisan">
+                    <div class="text-wrapper" id="nonpartisan"></div>
+                </div>
+                <img class="value" id="img-nonpartisan" src="assets/values/nonpartisan.svg" height="128pt"/>
+            </div>
+            <!--Authority axis-->
+            <h2>Authority Axis: <span class="weight-300" id="auth-label"></span></h2>
+            <div class="axis">
+                <img class="value" id="img-autocracy" src="assets/values/autocracy.svg" height="128pt"/>
+                <div class="bar autocracy" id="bar-autocracy">
+                    <div class="text-wrapper" id="autocracy"></div>
+                </div>
+                <div class="bar democracy" id="bar-democracy">
+                    <div class="text-wrapper" id="democracy"></div>
+                </div>
+                <img class="value" id="img-democracy" src="assets/values/democracy.svg" height="128pt"/>
+            </div>
+        </div>
+        <h2>Closest Match: <span class="weight-300" id="user-label"></span></h2>
+        <img src="" id="banner">
+        <button class="button" onclick="location.href='index.html'" id="back-button">Return To Index</button>
+        <script type="application/javascript"src="dist/ideologies.js"></script>
+        <script type="application/javascript"src="dist/axes.js"></script>
+        <script type="application/javascript"src="dist/canvas.js"></script>
+        <script type="application/javascript"src="dist/results.js"></script>
+    </body>
+</html>

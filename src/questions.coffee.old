@@ -1,0 +1,267 @@
+questions = [
+  "question": "If there was a man who was about to cross an unstable bridge, and he would die if he crossed it we should stop him from crossing it."
+  "effect":
+    "ptnl": 10
+    "stat": 0
+    "part": 0
+    "auth": 0
+,
+  "question": "Car should manufacturers be forced to put seatbelts in their cars."
+  "effect":
+    "ptnl": 10
+    "stat": 0
+    "part": 0
+    "auth": 0
+,
+  "question": "Vaccines should be mandatory."
+  "effect":
+    "ptnl": 10
+    "stat": 0
+    "part": 0
+    "auth": 0
+,
+  "question": "The War on Drugs is a good thing."
+  "effect":
+    "ptnl": 10
+    "stat": 0
+    "part": 0
+    "auth": 0
+,
+  "question": "Freedom is inherently good."
+  "effect":
+    "ptnl": -10
+    "stat": 0
+    "part": 0
+    "auth": 0
+,
+  "question": "Suicide should be legal."
+  "effect":
+    "ptnl": -10
+    "stat": 0
+    "part": 0
+    "auth": 0
+,
+  "question": "All drugs should be legal."
+  "effect":
+    "ptnl": -10
+    "stat": 0
+    "part": 0
+    "auth": 0
+,
+  "question": "\"Victimless crimes\" should be legal."
+  "effect":
+    "ptnl": -10
+    "stat": 0
+    "part": 0
+    "auth": 0
+,
+  "question": "Homeless should people be forcefully housed."
+  "effect":
+    "ptnl": 10
+    "stat": 0
+    "part": 0
+    "auth": 0
+,
+  "question": "Is one aspect of why guns are bad is that they lead to increased suicide?"
+  "effect":
+    "ptnl": 10
+    "stat": 0
+    "part": 0
+    "auth": 0
+,
+  "question": "There are too many regulations on businesses."
+  "effect":
+    "ptnl": 0
+    "stat": -10
+    "part": 0
+    "auth": 0
+,
+  "question": "Silicon Valley should be more heavily regulated."
+  "effect":
+    "ptnl": 0
+    "stat": 10
+    "part": 0
+    "auth": 0
+,
+  "question": "A \"free market\" is a goal worth striving for?"
+  "effect":
+    "ptnl": 0
+    "stat": -10
+    "part": 0
+    "auth": 0
+,
+  "question": "Free is trade good in almost all circumstances."
+  "effect":
+    "ptnl": 0
+    "stat": -10
+    "part": 0
+    "auth": 0
+,
+  "question": "Businesses should be beholden to the state"
+  "effect":
+    "ptnl": 0
+    "stat": 10
+    "part": 0
+    "auth": 0
+,
+  "question": "Corporations should never act against the country."
+  "effect":
+    "ptnl": 0
+    "stat": 10
+    "part": 0
+    "auth": 0
+,
+  "question": "Some commodities shouldn't be sold."
+  "effect":
+    "ptnl": 0
+    "stat": 10
+    "part": 0
+    "auth": 0
+,
+  "question": "Many issues in my nation are caused by overregulation."
+  "effect":
+    "ptnl": 0
+    "stat": -10
+    "part": 0
+    "auth": 0
+,
+  "question": "The EU is bad because of bureaucracy."
+  "effect":
+    "ptnl": 0
+    "stat": -10
+    "part": 0
+    "auth": 0
+,
+  "question": "The government should stop businesses from hurting the environment."
+  "effect":
+    "ptnl": 0
+    "stat": 10
+    "part": 0
+    "auth": 0
+,
+  "question": "I would prefer if my country had no political parties."
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 10
+    "auth": 0
+,
+  "question": "I would vote for a party besides the last party I voted for."
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": -10
+    "auth": 0
+,
+  "question": "I would vote for a politician I agree with from a party with a platform I strongly disagree with."
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 10
+    "auth": 0
+,
+  "question": "I like the two-party system in America"
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": -10
+    "auth": 0
+,
+  "question": " I would rather vote for a political \"insider\" than a political \"outsider\"."
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": -10
+    "auth": 0
+,
+  "question": "The idea of a political party inherently flawed, because it comes with a certain set of ideas/policies you must agree with."
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 10
+    "auth": 0
+,
+  "question": "The concept of \"syncretic politics\" is good."
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 10
+    "auth": 0
+,
+  "question": "I would consider myself to be a non-partisan."
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 10
+    "auth": 0
+,
+  "question": "Partisanship is one of the three biggest problems in modern politics."
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 10
+    "auth": 0
+,
+  "question": "Democracy has failed"
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 0
+    "auth": 10
+,
+  "question": "[Representative] Democracy is the worst system of government, except for all the others we've tried."
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 0
+    "auth": 10
+,
+  "question": "Direct Democracy is a good system?"
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 0
+    "auth": -10
+,
+  "question": "Democracy oppresses the rights of the minority?"
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 0
+    "auth": 10
+,
+  "question": "Democracy should be implemented in all governments/states?"
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 0
+    "auth": 10
+,
+  "question": "An oppressive democracy is better than a benevolent dictatorship?"
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 0
+    "auth": -10
+,
+  "question": "Security is more important than democracy"
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 0
+    "auth": 10
+,
+  "question": "A decision is better when the input of more people is taken into account"
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 0
+    "auth": -10
+,
+  "question": "The label authoritarian defines me better than anti-authoritarian"
+  "effect":
+    "ptnl": 0
+    "stat": 0
+    "part": 0
+    "auth": 10
+]
