@@ -55,17 +55,17 @@ libertarian = getQueryVariable("a");
 
 planned = getQueryVariable("b");
 
-partisan = getQueryVariable("c");
+autocracy = getQueryVariable("c");
 
-autocracy = getQueryVariable("d");
+partisan = getQueryVariable("d");
 
 paternalist = (100 - libertarian).toFixed(1);
 
 laissez = (100 - planned).toFixed(1);
 
-nonpartisan = (100 - partisan).toFixed(1);
-
 democracy = (100 - autocracy).toFixed(1);
+
+nonpartisan = (100 - partisan).toFixed(1);
 
 //Sets bar values for all bars
 //Left collumn
@@ -73,27 +73,27 @@ setBarValue("libertarian", libertarian);
 
 setBarValue("planned", planned);
 
-setBarValue("partisan", partisan);
-
 setBarValue("autocracy", autocracy);
+
+setBarValue("partisan", partisan);
 
 //Right collumn
 setBarValue("paternalist", paternalist);
 
 setBarValue("laissez", laissez);
 
-setBarValue("nonpartisan", nonpartisan);
-
 setBarValue("democracy", democracy);
+
+setBarValue("nonpartisan", nonpartisan);
 
 //Sets label for all axis divs
 document.getElementById("ptnl-label").innerHTML = setLabel(libertarian, ptnl_array);
 
 document.getElementById("stat-label").innerHTML = setLabel(planned, stat_array);
 
-document.getElementById("part-label").innerHTML = setLabel(partisan, part_array);
-
 document.getElementById("auth-label").innerHTML = setLabel(autocracy, auth_array);
+
+document.getElementById("part-label").innerHTML = setLabel(partisan, part_array);
 
 //Finds closest match to this user
 match = "";
@@ -105,8 +105,8 @@ for (j = 0, len = ideologies.length; j < len; j++) {
   dist = 0;
   dist += Math.pow(Math.abs(ideology.stats.ptnl - libertarian), 2);
   dist += Math.pow(Math.abs(ideology.stats.stat - planned), 2);
-  dist += Math.pow(Math.abs(ideology.stats.part - partisan), 2);
   dist += Math.pow(Math.abs(ideology.stats.auth - autocracy), 2);
+  dist += Math.pow(Math.abs(ideology.stats.part - partisan), 2);
   if (dist < userdist) {
     match = ideology.ideology;
     userdist = dist;

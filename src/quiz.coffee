@@ -41,8 +41,8 @@ next_question = (choice) ->
     mult = questions[qn].answers.weight[choice]
     ptnl += mult*questions[qn].effect.ptnl
     stat += mult*questions[qn].effect.stat
-    part += mult*questions[qn].effect.part
     auth += mult*questions[qn].effect.auth
+    part += mult*questions[qn].effect.part
     qn++
     answers.push mult
     if qn < questions.length
@@ -59,8 +59,8 @@ prev_question = () ->
         prev_answer = answers[..].pop()
         ptnl -= prev_answer * questions[qn].effect.ptnl
         stat -= prev_answer * questions[qn].effect.stat
-        part -= prev_answer * questions[qn].effect.part
         auth -= prev_answer * questions[qn].effect.auth
+        part -= prev_answer * questions[qn].effect.part
         do answers.pop
         do init_question
 
@@ -76,19 +76,19 @@ results = () ->
     window.location.href = "results.html" \
         + "?a=" + calc_score(ptnl,max_ptnl) \
         + "&b=" + calc_score(stat,max_stat) \
-        + "&c=" + calc_score(part,max_part) \
-        + "&d=" + calc_score(auth,max_auth) 
+        + "&c=" + calc_score(auth,max_auth) \
+        + "&d=" + calc_score(part,max_part) 
 
 #Defines each variable as 0
-max_ptnl = max_stat = max_part = max_auth =\
-ptnl = stat = part = auth = qn = 0
+max_ptnl = max_stat = max_auth = max_part = \
+ptnl = stat = auth = part = qn = 0
 #Defines arrrays as empty
 answers = []
 #Calculates max score for each axis
 for question in questions
     max_ptnl += Math.abs(question.effect.ptnl)
     max_stat += Math.abs(question.effect.stat)
-    max_part += Math.abs(question.effect.part)
     max_auth += Math.abs(question.effect.auth)
+    max_part += Math.abs(question.effect.part)
 #starts the question initializer
 do init_question

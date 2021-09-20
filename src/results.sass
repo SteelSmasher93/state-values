@@ -47,7 +47,7 @@ div.results
     border-bottom-right-radius: 28pt
     margin-right: 4px
 
-//Seriousposting axis
+//Paternalism axis
 div.libertarian
     @extend %leftaxis
     background-color: #B22222
@@ -56,29 +56,29 @@ div.paternalist
     @extend %rightaxis
     background-color: #00F
 
-//Personality axis
+//Economy axis
 div.planned
     @extend %leftaxis
     background-color: #C000FF
 div.laissez
     @extend %rightaxis
     background-color: #EE2436
-   
-//Allegiance axis
+
+//Authority axis
+div.autocracy
+    @extend %leftaxis
+    background-color: #00F
+div.democracy
+    @extend %rightaxis
+    background-color: #FF0000    
+
+//Partisanship axis
 div.partisan
     @extend %leftaxis
     background-color: #EDB509
 div.nonpartisan
     @extend %rightaxis
     background-color: #333
-
-//Experience axis
-div.autocracy
-    @extend %leftaxis
-    background-color: #00F
-div.democracy
-    @extend %rightaxis
-    background-color: #FF0000
 
 @media screen and (max-width: 800px)
     div.results 

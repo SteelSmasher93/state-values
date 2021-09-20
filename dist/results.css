@@ -37,7 +37,7 @@ div.results {
   margin-right: auto;
 }
 
-div.autocracy, div.partisan, div.planned, div.libertarian {
+div.partisan, div.autocracy, div.planned, div.libertarian {
   text-align: left;
   border-left-style: solid;
   border-top-left-radius: 28pt;
@@ -45,7 +45,7 @@ div.autocracy, div.partisan, div.planned, div.libertarian {
   margin-left: 4px;
 }
 
-div.democracy, div.nonpartisan, div.laissez, div.paternalist {
+div.nonpartisan, div.democracy, div.laissez, div.paternalist {
   text-align: right;
   border-right-style: solid;
   border-top-right-radius: 28pt;
@@ -69,20 +69,20 @@ div.laissez {
   background-color: #EE2436;
 }
 
-div.partisan {
-  background-color: #EDB509;
-}
-
-div.nonpartisan {
-  background-color: #333;
-}
-
 div.autocracy {
   background-color: #00F;
 }
 
 div.democracy {
   background-color: #FF0000;
+}
+
+div.partisan {
+  background-color: #EDB509;
+}
+
+div.nonpartisan {
+  background-color: #333;
 }
 
 @media screen and (max-width: 800px) {

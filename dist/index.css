@@ -135,20 +135,20 @@ p.extras {
   color: #333;
 }
 
-#partisan {
-  color: #00F;
-}
-
-#nonpartisan {
-  color: #FF0000;
-}
-
 #autocracy {
   color: #C000FF;
 }
 
 #democracy {
   color: #EE2436;
+}
+
+#partisan {
+  color: #00F;
+}
+
+#nonpartisan {
+  color: #FF0000;
 }
 
 @media (prefers-color-scheme: dark) {
