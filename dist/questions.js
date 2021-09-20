@@ -234,9 +234,7 @@ questions = [
     }
   },
   {
-    "question": "Are there too many regulations on businesses?"
-  },
-  {
+    "question": "Are there too many regulations on businesses?",
     "answers": {
       "text1": "It is always good",
       "text2": "Yes",
@@ -257,9 +255,7 @@ questions = [
     }
   },
   {
-    "question": "Which should be beholden to the other (if they're all bad, pick the least bad option)?"
-  },
-  {
+    "question": "Which should be beholden to the other (if they're all bad, pick the least bad option)?",
     "answers": {
       "text1": "Businesses",
       "text2": "The State",
@@ -280,9 +276,7 @@ questions = [
     }
   },
   {
-    "question": "True or False: corporations should never act against the country."
-  },
-  {
+    "question": "True or False: corporations should never act against the country.",
     "answers": {
       "text1": "Hard True",
       "text2": "True",
@@ -303,9 +297,7 @@ questions = [
     }
   },
   {
-    "question": "Are there some commodities that shouldn't be sold?"
-  },
-  {
+    "question": "Are there some commodities that shouldn't be sold?",
     "answers": {
       "text1": "Hard Yes",
       "text2": "Yes",
@@ -326,9 +318,7 @@ questions = [
     }
   },
   {
-    "question": "Are many issues in your nation caused by overregulation?"
-  },
-  {
+    "question": "Are many issues in your nation caused by overregulation?",
     "answers": {
       "text1": false,
       "text2": "Yes",
@@ -349,9 +339,7 @@ questions = [
     }
   },
   {
-    "question": "Is the EU bad because of bureaucracy?"
-  },
-  {
+    "question": "Is the EU bad because of bureaucracy?",
     "answers": {
       "text1": "Hard Yes",
       "text2": "Yes",
@@ -372,9 +360,7 @@ questions = [
     }
   },
   {
-    "question": "Should the government stop business from hurting the environment?"
-  },
-  {
+    "question": "Should the government stop business from hurting the environment?",
     "answers": {
       "text1": "Yes",
       "text2": "Usually",
