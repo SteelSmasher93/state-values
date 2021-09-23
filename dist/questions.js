@@ -228,7 +228,7 @@ questions = [
     },
     "effect": {
       "ptnl": 0,
-      "stat": 10,
+      "stat": 20,
       "auth": 0,
       "part": 0
     }
