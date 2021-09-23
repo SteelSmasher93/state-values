@@ -192,18 +192,18 @@ questions = [
     }
   },
   {
-    "question": "Test test testosoos",
+    "question": "Are there too many regulations on businesses?",
     "answers": {
       "text1": "Hard Yes",
       "text2": "Yes",
       "text3": "Yes, but guns are still mostly good",
       "text4": "No",
       "text5": "Hard No",
-      "weight": [1,
-  0.5,
-  0,
+      "weight": [-1,
   -0.5,
-  -1]
+  0,
+  0.5,
+  1]
     },
     "effect": {
       "ptnl": 10,
