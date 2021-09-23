@@ -149,7 +149,7 @@ questions = [
     "weight": [1,0.5,0,-0.5,-1]
   "effect":
     "ptnl": 0
-    "stat": 10
+    "stat": 20
     "auth": 0
     "part": 0
 ]
