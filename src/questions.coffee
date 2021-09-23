@@ -134,8 +134,8 @@ questions = [
     "text5": "Hard No"
     "weight": [-1,-0.5,0,0.5,1]
   "effect":
-    "ptnl": 10
-    "stat": 0
+    "ptnl": 0
+    "stat": 10
     "auth": 0
     "part": 0
 ]
