@@ -129,7 +129,7 @@ questions = [
   "answers":
     "text1": "Hard Yes"
     "text2": "Yes"
-    "text3": "Yes, but guns are still mostly good"
+    "text3": false
     "text4": "No"
     "text5": "Hard No"
     "weight": [-1,-0.5,0,0.5,1]
@@ -143,13 +143,13 @@ questions = [
   "answers":
     "text1": "Hard Yes"
     "text2": "Yes"
-    "text3": "Yes, but guns are still mostly good"
+    "text3": false
     "text4": "No"
     "text5": "Hard No"
     "weight": [1,0.5,0,-0.5,-1]
   "effect":
     "ptnl": 0
-    "stat": 20
+    "stat": 10
     "auth": 0
     "part": 0
 ]
